@@ -16,10 +16,10 @@ const Bank = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </BankBg>
       <BankContent>
-        <BankH1> Virtual Banking Make Easy</BankH1>
-        <BankP>Sign up for a new accoun today and recive $250 in credit towards your next payment</BankP>
+        <BankH1> Virtual Banking Made Easy</BankH1>
+        <BankP>Sign up for a new account today and receive 100€ in credit towards your next payment</BankP>
         <BankBtnWrapper>
-          <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+          <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
             Get Started {hover ? <ArrowForward /> : <ArrowRight/>}
           </Button>
         </BankBtnWrapper>

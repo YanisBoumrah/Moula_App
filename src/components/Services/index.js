@@ -17,7 +17,7 @@ const Services = () => {
         <ServicesCard>
         <ServicesIcon src={Icon2}/>
           <ServicesH2>Virtual Offices</ServicesH2>
-          <ServicesP>you can acess our plataform online anywhere in the world.</ServicesP>
+          <ServicesP>you can access our platform online anywhere in the world.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}/>
